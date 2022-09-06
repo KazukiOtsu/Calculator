@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=ja>
+ <head>
+  <meta charset=UTF-8>
+  <link rel=stylesheet href=main2.css>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <title>電卓</title>
+ </head>
+ 
+ <body>
+  <div class="container">
+   <h1>電卓</h1>
+   <div id="calc">
+    <div>
+     <input readonly id="result" type="text" value="0">
+     <button onclick="ac_click()">AC</button>
+    </div>
+    <div>
+     <button onclick="num_click(this.innerHTML)">7</button>
+     <button onclick="num_click(this.innerHTML)">8</button>
+     <button onclick="num_click(this.innerHTML)">9</button>
+     <button onclick="ope_click(this.innerHTML)">÷</button>
+    </div>
+    <div>
+     <button onclick="num_click(this.innerHTML)">4</button>
+     <button onclick="num_click(this.innerHTML)">5</button>
+     <button onclick="num_click(this.innerHTML)">6</button>
+     <button onclick="ope_click(this.innerHTML)">×</button>
+    </div>
+    <div>
+     <button onclick="num_click(this.innerHTML)">1</button>
+     <button onclick="num_click(this.innerHTML)">2</button>
+     <button onclick="num_click(this.innerHTML)">3</button>
+     <button onclick="ope_click(this.innerHTML)">-</button>
+    </div>
+    <div>
+     <button onclick="num_click(this.innerHTML)">0</button>
+     <button onclick="num_click(this.innerHTML)">.</button>
+     <button onclick="res_click()">=</button>
+     <button onclick="ope_click(this.innerHTML)">+</button>
+    </div>
+   </div>
+  </div>
+  <script src=main2.js></script>
+ </body>

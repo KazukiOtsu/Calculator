@@ -1,0 +1,30 @@
+.container {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+
+#header, #calc {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#header {
+    font-size: 24px;
+    padding: 1rem;
+}
+
+input {
+    box-sizing: border-box;
+    text-align: right;
+    width: 63%;
+    height: 2.4rem;
+    font-size: 1.6em;
+    padding: 0 0.75rem;
+}
+
+button {
+    width: 20%;
+    vertical-align: middle;
+    height: 2.5rem;
+}
